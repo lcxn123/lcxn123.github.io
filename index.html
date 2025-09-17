@@ -376,7 +376,7 @@
 
 <p>为了在反序列化时知道对象的类型，JSON序列化器会将类的class类型写入json结果中，存入Redis，会带来额外的内存开销。</p>
 <p>为了减少内存的消耗，我们可以采用手动序列化的方式，换句话说，就是不借助默认的序列化器，而是我们自己来控制序列化的动作，同时，我们只采用String的序列化器，这样，在存储value时，我们就不需要在内存中就不用多存储数据，从而节约我们的内存空间</p>
-<p><img src="/..%5Cimages%5C1653054744832.png" alt="1653054744832"></p>
+<p><img src="/..%5Cimages%5C1653054744832.png" alt="12345"></p>
 <p>这种用法比较普遍，因此SpringDataRedis就提供了RedisTemplate的子类：StringRedisTemplate，它的key和value的序列化方式默认就是String方式。</p>
 <p><img src="https://i.imgur.com/zXH6Qn6.png"></p>
 <p>省去了我们自定义RedisTemplate的序列化方式的步骤，而是直接使用：</p>
@@ -404,7 +404,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lcxn123.github.io/2025/09/16/Redis/" data-id="cmfnasi4w0000vwa6glu99yh7" data-title="Redis笔记" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="https://lcxn123.github.io/2025/09/16/Redis/" data-id="cmfnb4nb50000rga62639g9re" data-title="Redis笔记" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
@@ -443,7 +443,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://lcxn123.github.io/2025/09/15/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" data-id="cmfnasi520001vwa6h6xcdqad" data-title="第一个博客" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
+      <a data-url="https://lcxn123.github.io/2025/09/15/%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%8D%9A%E5%AE%A2/" data-id="cmfnb4nb80001rga6gzme3w44" data-title="第一个博客" class="article-share-link"><span class="fa fa-share">Teilen</span></a>
       
       
       
